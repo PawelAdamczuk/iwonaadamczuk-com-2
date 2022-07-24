@@ -1,24 +1,29 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
-<html data-current="{{ page.section }}" lang="en">
+<html lang="en">
 
   {% include head.html %}
+  
+  {% if page.url == '/' %}
+    {% assign class = 'body-post' %}
+  <body class="{{ class }}">
+  {% endif %}
+  
+    {% if site.google-analytics %}
+      {% include google-analytics.html %}
+    {% endif %}
 
-  <body>
+    <div class="full-page-container">
+      <div class="overlay"></div>
+      {% include header.html %}
+      {% include search.html %}
 
-    {% include header.html %}
+        {{ content }}
 
-    <main>
+      {% include scroll-top.html %}
+      {% include footer.html %}
+    </div> <!-- /.full-page-container -->
 
-      {{ content }}
-
-    </main>
-
-    {% include footer.html %}
-
+    {% include javascripts.html %}
   </body>
 
 </html>
