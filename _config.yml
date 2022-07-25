@@ -13,13 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jekyll Netlify Boilerplate
-email: your-email@example.com
+title: Iwona Adamczuk
+email: i@poczta.fm
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml.
+  Nauczyciel polonista.
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
-url: "https://jekyll-netlify-boilerplate.netlify.com" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://iwonaadamczuk.com" # the base hostname & protocol for your site, e.g. https://example.com
 
 # Enable section IDs in frontmatter, useful for identifying current page
 # (used as a hook for styling etc)
@@ -77,10 +76,10 @@ hero-title: Iwona Adamczuk
 hero-description: Nauczyciel polonista
 
 # Author - Creator
-author-name: Ben Campbell
+author-name: Iwona Adamczuk
 author-image: 10.jpg
-about-author: My name is Ben Campbell. I'm an actor and a musician. Retro wolf banjo succulen tsgoch ujang tumeric hammock offal.
-author-email: help.example@gmail.com
+about-author: Nazywam się Iwona Adamczuk. Lorem ipsum....
+author-email: i@poczta.fm
 author-twitter: https://twitter.com/
 author-facebook: https://twitter.com/
 author-instagram: https://www.instagram.com/
@@ -95,7 +94,7 @@ pinterest: https://pinterest.com/
 youtube: https://www.youtube.com/
 
 # Contact Form Settings
-contact-subtitle: Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Kogi cornhole enamel. # Title for the subscription form.
+contact-subtitle: Skontaktuj się w sprawie lekcji indywidualnych. # Title for the subscription form.
 
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
